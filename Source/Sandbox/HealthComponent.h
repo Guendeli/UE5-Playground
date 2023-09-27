@@ -29,5 +29,8 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-		
+	FORCEINLINE float GetHealthPercent() const
+	{
+		return Health / 100.f;
+	}	
 };

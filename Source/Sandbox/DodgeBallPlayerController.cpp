@@ -25,3 +25,22 @@ void ADodgeBallPlayerController::HideWidget()
 	bShowMouseCursor = false;
 }
 
+void ADodgeBallPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+	if(BP_HUDWidget != nullptr)
+	{
+		HUDWidget = CreateWidget<UHUDWidget>(this, BP_HUDWidget);
+		HUDWidget->AddToViewport();
+	}
+}
+
+void ADodgeBallPlayerController::UpdateHealthPercent(float percent)
+{
+	if(HUDWidget != nullptr)
+	{
+		HUDWidget->UpdateHealthBar(percent);
+	}
+}
+
+

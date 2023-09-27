@@ -19,6 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_Projects_Sandbox_Source_Sandbox_HealthInterface_h_13_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
 #define FID_Projects_Sandbox_Source_Sandbox_HealthInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execOnDamage); \
 	DECLARE_FUNCTION(execOnDeath);
 
 
@@ -61,6 +62,7 @@ protected: \
 public: \
 	typedef UHealthInterface UClassType; \
 	typedef IHealthInterface ThisClass; \
+	static void Execute_OnDamage(UObject* O); \
 	static void Execute_OnDeath(UObject* O); \
 	virtual UObject* _getUObject() const { return nullptr; }
 

@@ -150,3 +150,13 @@ void ASandboxCharacter::OnDeath_Implementation()
 		playerController->ShowRestartWidget();
 	}
 }
+
+void ASandboxCharacter::OnDamage_Implementation()
+{
+	ADodgeBallPlayerController* PlayerController = Cast<ADodgeBallPlayerController>(GetController());
+	if(PlayerController != nullptr)
+	{
+		PlayerController->UpdateHealthPercent(healthComponent->GetHealthPercent());
+	}
+}
+

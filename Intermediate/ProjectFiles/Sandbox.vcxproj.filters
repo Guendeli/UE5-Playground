@@ -1502,6 +1502,12 @@
     <ClInclude Include="..\..\Source\Sandbox\HealthInterface.h">
       <Filter>Source\Sandbox</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Sandbox\HUDWidget.cpp">
+      <Filter>Source\Sandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sandbox\HUDWidget.h">
+      <Filter>Source\Sandbox</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Sandbox\LookAtActor.cpp">
       <Filter>Source\Sandbox</Filter>
     </ClCompile>

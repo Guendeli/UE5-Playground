@@ -48,6 +48,7 @@ class ASandboxCharacter : public ACharacter, public IHealthInterface
 public:
 	ASandboxCharacter();
 	virtual void OnDeath_Implementation() override;
+	virtual void OnDamage_Implementation() override;
 
 protected:
 

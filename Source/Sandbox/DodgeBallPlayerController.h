@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "HUDWidget.h"
 #include "RestartWidget.h"
 #include "GameFramework/PlayerController.h"
 #include "DodgeBallPlayerController.generated.h"
@@ -19,12 +20,24 @@ public:
 
 	void ShowRestartWidget();
 	void HideWidget();
+	void UpdateHealthPercent(float percent);
 	
 	UPROPERTY(EditDefaultsOnly)
 	TSubclassOf<URestartWidget> BP_RestartWidget;
+
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<UHUDWidget> BP_HUDWidget;
+
+protected:
+
+	virtual void BeginPlay() override;
+	
 
 private:
 
 	UPROPERTY()
 	TObjectPtr<URestartWidget> RestartWidget;
+
+	UPROPERTY()
+	TObjectPtr<UHUDWidget> HUDWidget;
 };

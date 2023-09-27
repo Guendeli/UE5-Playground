@@ -169,7 +169,7 @@ void EmptyLinkFunctionForGeneratedCodeSandboxCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASandboxCharacter_Statics::NewProp_LookAction,
 	};
 		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ASandboxCharacter_Statics::InterfaceParams[] = {
-			{ Z_Construct_UClass_UHealthInterface_NoRegister, (int32)VTABLE_OFFSET(ASandboxCharacter, IHealthInterface), false },  // 3386067923
+			{ Z_Construct_UClass_UHealthInterface_NoRegister, (int32)VTABLE_OFFSET(ASandboxCharacter, IHealthInterface), false },  // 987203909
 		};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASandboxCharacter_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASandboxCharacter_Statics::StaticCppClassTypeInfo = {
@@ -210,9 +210,9 @@ void EmptyLinkFunctionForGeneratedCodeSandboxCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_SandboxCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ASandboxCharacter, ASandboxCharacter::StaticClass, TEXT("ASandboxCharacter"), &Z_Registration_Info_UClass_ASandboxCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASandboxCharacter), 2444413129U) },
+		{ Z_Construct_UClass_ASandboxCharacter, ASandboxCharacter::StaticClass, TEXT("ASandboxCharacter"), &Z_Registration_Info_UClass_ASandboxCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASandboxCharacter), 2258764799U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_SandboxCharacter_h_1909815488(TEXT("/Script/Sandbox"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_SandboxCharacter_h_43107964(TEXT("/Script/Sandbox"),
 		Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_SandboxCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_SandboxCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

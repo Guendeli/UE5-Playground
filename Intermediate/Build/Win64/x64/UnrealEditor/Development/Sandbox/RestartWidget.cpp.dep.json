@@ -54,6 +54,12 @@
             "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
             "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
             "d:\\ue\\projects\\sandbox\\source\\sandbox\\dodgeballplayercontroller.h",
+            "d:\\ue\\projects\\sandbox\\source\\sandbox\\hudwidget.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\umg\\public\\components\\progressbar.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\slate\\public\\widgets\\notifications\\sprogressbar.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\slate\\uht\\sprogressbar.generated.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\progressbar.generated.h",
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\hudwidget.generated.h",
             "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\dodgeballplayercontroller.generated.h"
         ],
         "ImportedModules": [],
