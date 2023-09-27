@@ -1,0 +1,35 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue\\projects\\sandbox\\source\\sandbox\\dodgeballprojectile.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sandbox\\definitions.sandbox.h",
+            "d:\\ue\\projects\\sandbox\\source\\sandbox\\dodgeballprojectile.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\projectilemovementcomponent.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\movementcomponent.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\projectilemovementcomponent.generated.h",
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\dodgeballprojectile.generated.h",
+            "d:\\ue\\projects\\sandbox\\source\\sandbox\\sandboxcharacter.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\sandboxcharacter.generated.h",
+            "d:\\ue\\projects\\sandbox\\source\\sandbox\\healthcomponent.h",
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\healthcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

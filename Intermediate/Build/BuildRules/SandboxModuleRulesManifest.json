@@ -1,0 +1,15 @@
+{
+	"SourceFiles": [
+		"D:\\UE\\Projects\\Sandbox\\Source\\Sandbox\\Sandbox.Build.cs",
+		"D:\\UE\\Projects\\Sandbox\\Plugins\\Developer\\RiderLink\\Source\\RD\\RD.Build.cs",
+		"D:\\UE\\Projects\\Sandbox\\Plugins\\Developer\\RiderLink\\Source\\RiderBlueprint\\RiderBlueprint.Build.cs",
+		"D:\\UE\\Projects\\Sandbox\\Plugins\\Developer\\RiderLink\\Source\\RiderGameControl\\RiderGameControl.Build.cs",
+		"D:\\UE\\Projects\\Sandbox\\Plugins\\Developer\\RiderLink\\Source\\RiderLC\\RiderLC.Build.cs",
+		"D:\\UE\\Projects\\Sandbox\\Plugins\\Developer\\RiderLink\\Source\\RiderLink\\RiderLink.Build.cs",
+		"D:\\UE\\Projects\\Sandbox\\Plugins\\Developer\\RiderLink\\Source\\RiderLogging\\RiderLogging.Build.cs",
+		"D:\\UE\\Projects\\Sandbox\\Plugins\\Developer\\RiderLink\\Source\\RiderShaderInfo\\RiderShaderInfo.Build.cs",
+		"D:\\UE\\Projects\\Sandbox\\Source\\Sandbox.Target.cs",
+		"D:\\UE\\Projects\\Sandbox\\Source\\SandboxEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.0"
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\ue\\projects\\sandbox\\source\\sandbox\\lookatactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\sandbox\\definitions.sandbox.h",
+            "d:\\ue\\projects\\sandbox\\source\\sandbox\\lookatactor.h",
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\lookatactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,25 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/UE/Projects/Sandbox/Content/ThirdPerson/Blueprints/BP_Enemy.uasset",
+				"D:/UE/Projects/Sandbox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/P3/O43ETCZTFMLWWH1CJ941H2.uasset",
+				"D:/UE/Projects/Sandbox/Content/ThirdPerson/Blueprints/BP_DodgeBall.uasset",
+				"D:/UE/Projects/Sandbox/Content/Physics/PM_dodgeball.uasset",
+				"D:/UE/Projects/Sandbox/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"D:/UE/Projects/Sandbox/Content/ThirdPerson/Blueprints/BP_Wall.uasset",
+				"D:/UE/Projects/Sandbox/Content/ThirdPerson/Blueprints/BP_GhostWall.uasset",
+				"D:/UE/Projects/Sandbox/Content/ThirdPerson/Blueprints/bp_victory.uasset",
+				"D:/UE/Projects/Sandbox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HC/6V9Q6GGRBF9P9SZ3U4BJIN.uasset",
+				"D:/UE/Projects/Sandbox/Content/ThirdPerson/Blueprints/TestWidget.uasset",
+				"D:/UE/Projects/Sandbox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/6B/ZURSO4SQQS7H45OZUA2ERZ.uasset",
+				"D:/UE/Projects/Sandbox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/OS/LPX5P3QZKOKV5WPNKBQIPR.uasset",
+				"D:/UE/Projects/Sandbox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/M5/IYY17496ALE62UW6POBWUX.uasset",
+				"D:/UE/Projects/Sandbox/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/F8/EA5WUVDCECNSYLSK5ML315.uasset"
+			]
+		}
+	]
+}
