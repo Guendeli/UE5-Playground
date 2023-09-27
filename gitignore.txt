@@ -49,3 +49,7 @@ Session.vim
 
 # Visual Studio
 .vs
+
+#folders
+/[Bb]inaries/
+/[Ii]ntermediate/
