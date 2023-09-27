@@ -365,6 +365,8 @@
     <None Include="..\..\Source\Sandbox.Target.cs"/>
     <None Include="..\..\Source\SandboxEditor.Target.cs"/>
     <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\gitattributes.txt"/>
+    <None Include="..\..\gitignore.txt"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
@@ -1054,6 +1056,12 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\Sandbox\DodgeballFunctionLibrary.h"/>
+    <ClCompile Include="..\..\Source\Sandbox\DodgeBallPlayerController.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_6)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_7)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sandbox\DodgeBallPlayerController.h"/>
     <ClCompile Include="..\..\Source\Sandbox\DodgeballProjectile.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_6)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_7)</ForcedIncludeFiles>
@@ -1084,6 +1092,12 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\Sandbox\LookAtActor.h"/>
+    <ClCompile Include="..\..\Source\Sandbox\RestartWidget.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_6)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles_7)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sandbox\RestartWidget.h"/>
     <None Include="..\..\Source\Sandbox\Sandbox.Build.cs"/>
     <ClCompile Include="..\..\Source\Sandbox\Sandbox.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories_6)</AdditionalIncludeDirectories>

@@ -12,6 +12,7 @@
 #include "HealthComponent.h"
 #include "InputActionValue.h"
 #include "Kismet/KismetSystemLibrary.h"
+#include "DodgeBallPlayerController.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -143,5 +144,9 @@ void ASandboxCharacter::Look(const FInputActionValue& Value)
 
 void ASandboxCharacter::OnDeath_Implementation()
 {
-	UKismetSystemLibrary::QuitGame(this, nullptr, EQuitPreference::Quit, true);
+	ADodgeBallPlayerController* playerController = Cast<ADodgeBallPlayerController>(GetController());
+	if(playerController != nullptr)
+	{
+		playerController->ShowRestartWidget();
+	}
 }

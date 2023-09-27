@@ -12,6 +12,8 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\gitattributes.txt" />
+    <None Include="..\..\gitignore.txt" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -1470,6 +1472,12 @@
     <ClInclude Include="..\..\Source\Sandbox\DodgeballFunctionLibrary.h">
       <Filter>Source\Sandbox</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Sandbox\DodgeBallPlayerController.cpp">
+      <Filter>Source\Sandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sandbox\DodgeBallPlayerController.h">
+      <Filter>Source\Sandbox</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Sandbox\DodgeballProjectile.cpp">
       <Filter>Source\Sandbox</Filter>
     </ClCompile>
@@ -1498,6 +1506,12 @@
       <Filter>Source\Sandbox</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Sandbox\LookAtActor.h">
+      <Filter>Source\Sandbox</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Sandbox\RestartWidget.cpp">
+      <Filter>Source\Sandbox</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sandbox\RestartWidget.h">
       <Filter>Source\Sandbox</Filter>
     </ClInclude>
     <None Include="..\..\Source\Sandbox\Sandbox.Build.cs">
