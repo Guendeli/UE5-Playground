@@ -13,6 +13,7 @@ void EmptyLinkFunctionForGeneratedCodeDodgeballProjectile() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundAttenuation_NoRegister();
@@ -142,6 +143,10 @@ void EmptyLinkFunctionForGeneratedCodeDodgeballProjectile() {}
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_Attenuation;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_HitParticle_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_HitParticle;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_SphereComponent_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_SphereComponent;
@@ -190,6 +195,13 @@ void EmptyLinkFunctionForGeneratedCodeDodgeballProjectile() {}
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_Attenuation = { "Attenuation", nullptr, (EPropertyFlags)0x0024080000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADodgeballProjectile, Attenuation), Z_Construct_UClass_USoundAttenuation_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_Attenuation_MetaData), Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_Attenuation_MetaData) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_HitParticle_MetaData[] = {
+		{ "Category", "VFX" },
+		{ "ModuleRelativePath", "DodgeballProjectile.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_HitParticle = { "HitParticle", nullptr, (EPropertyFlags)0x0024080000010001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADodgeballProjectile, HitParticle), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_HitParticle_MetaData), Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_HitParticle_MetaData) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_SphereComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Dodgeball" },
@@ -211,6 +223,7 @@ void EmptyLinkFunctionForGeneratedCodeDodgeballProjectile() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_Damage,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_BounceSound,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_Attenuation,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_HitParticle,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_SphereComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADodgeballProjectile_Statics::NewProp_ProjectileMovement,
 	};
@@ -252,9 +265,9 @@ void EmptyLinkFunctionForGeneratedCodeDodgeballProjectile() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_DodgeballProjectile_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ADodgeballProjectile, ADodgeballProjectile::StaticClass, TEXT("ADodgeballProjectile"), &Z_Registration_Info_UClass_ADodgeballProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADodgeballProjectile), 3052623053U) },
+		{ Z_Construct_UClass_ADodgeballProjectile, ADodgeballProjectile::StaticClass, TEXT("ADodgeballProjectile"), &Z_Registration_Info_UClass_ADodgeballProjectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADodgeballProjectile), 1127702778U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_DodgeballProjectile_h_2455244502(TEXT("/Script/Sandbox"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_DodgeballProjectile_h_2961615621(TEXT("/Script/Sandbox"),
 		Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_DodgeballProjectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Projects_Sandbox_Source_Sandbox_DodgeballProjectile_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

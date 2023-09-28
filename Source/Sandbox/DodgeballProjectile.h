@@ -32,6 +32,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category=Sound)
 	TObjectPtr<USoundAttenuation> Attenuation;
+
+	UPROPERTY(EditDefaultsOnly, Category=VFX)
+	TObjectPtr<UParticleSystem> HitParticle;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

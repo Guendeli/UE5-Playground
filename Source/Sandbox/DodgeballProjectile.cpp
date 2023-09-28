@@ -56,6 +56,11 @@ void ADodgeballProjectile::OnHit(UPrimitiveComponent* hitComp, AActor* otherActo
 		{
 			HealthComponent->TakeDamage(Damage);
 		}
+
+		if(HitParticle != nullptr)
+		{
+			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitParticle, hit.Location);
+		}
 		Destroy();
 	}
 }
