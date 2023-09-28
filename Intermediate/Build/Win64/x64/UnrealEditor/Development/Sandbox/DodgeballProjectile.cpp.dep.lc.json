@@ -25,9 +25,21 @@
             "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "d:\\ue\\projects\\sandbox\\source\\sandbox\\healthinterface.h",
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\healthinterface.generated.h",
             "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\sandboxcharacter.generated.h",
             "d:\\ue\\projects\\sandbox\\source\\sandbox\\healthcomponent.h",
-            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\healthcomponent.generated.h"
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\healthcomponent.generated.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "d:\\ue\\unrealengine\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

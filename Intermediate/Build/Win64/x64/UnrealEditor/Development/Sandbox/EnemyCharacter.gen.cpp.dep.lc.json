@@ -25,6 +25,8 @@
             "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\movementcomponent.generated.h",
             "d:\\ue\\unrealengine\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\projectilemovementcomponent.generated.h",
             "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\dodgeballprojectile.generated.h",
+            "d:\\ue\\projects\\sandbox\\source\\sandbox\\lookatactor.h",
+            "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\lookatactor.generated.h",
             "d:\\ue\\projects\\sandbox\\intermediate\\build\\win64\\unrealeditor\\inc\\sandbox\\uht\\enemycharacter.generated.h"
         ],
         "ImportedModules": [],

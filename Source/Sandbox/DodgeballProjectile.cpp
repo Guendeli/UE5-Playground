@@ -6,6 +6,7 @@
 #include "SandboxCharacter.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "HealthComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 ADodgeballProjectile::ADodgeballProjectile()
@@ -43,6 +44,11 @@ void ADodgeballProjectile::Tick(float DeltaTime)
 
 void ADodgeballProjectile::OnHit(UPrimitiveComponent* hitComp, AActor* otherActor, UPrimitiveComponent* otherComp, FVector normalImpulse, const FHitResult& hit)
 {
+	if(BounceSound != nullptr && normalImpulse.Size() > 600.0f)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, BounceSound, GetActorLocation(), 1.0f, 1.0f, 0.0f, Attenuation);
+	}
+	
 	if(Cast<ASandboxCharacter>(otherActor) != nullptr)
 	{
 		UHealthComponent* HealthComponent = otherActor->FindComponentByClass<UHealthComponent>();

@@ -27,6 +27,11 @@ protected:
 	UPROPERTY(EditAnywhere, Category=Damage)
 	float Damage = 34.0f;
 
+	UPROPERTY(EditDefaultsOnly)
+	TObjectPtr<USoundBase> BounceSound;
+
+	UPROPERTY(EditAnywhere, Category=Sound)
+	TObjectPtr<USoundAttenuation> Attenuation;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
